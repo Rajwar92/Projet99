@@ -1,0 +1,237 @@
+{"event":
+{
+  "bookingNumber": "bkkcutoff111",
+  "requestNumber": "BR220210121944753",
+  "pickupDate": "2022-02-10T00:00:00",
+  "masterWaybillNumber": "MWB701211100090",
+  "houseWaybillNumber": "HWB701211090",
+  "earliestReceiptDate": "2022-02-17T00:00:00",
+  "cutoffDate": "2022-02-16T00:00:00",
+  "vgmCutoffDate": "2022-02-25T00:00:00",
+  "transitDate": "2022-02-20T00:00:00",  
+  "contractNumber": "Contarct21744",
+  "documentationCutoffDate": "2022-01-20T07:23:00",
+  "deliveryDate": "2022-02-27T23:59:59",
+  "origin": {
+    "uuid": "5fef5bdb-89b2-485e-8e19-71aa0549420d",
+    "plusCode": "864PW2QP+4R",
+    "code": "USALX",
+    "unloccode": "USALX",
+    "address1": "755 Lee St",
+    "type": "Others",
+    "name": "ALEX CITY DC",
+    "city": "Alexander City",
+    "state": "AL",
+    "country": "US",
+    "postalCode": "35010",
+    "timezone": "America/Chicago"
+  },
+  "portOfLoading": {
+    "uuid": "45300768-03f0-46da-af22-fd2201517c93",
+    "plusCode": "USGPT",
+    "unloccode": "USGPT",
+    "type": "PORT",
+    "name": "Gulfport",
+    "city": "Gulfport",
+    "state": "MS",
+    "country": "US",
+    "timezone": "America/Chicago"
+  },
+  "destination": {
+    "uuid": "53238015-e474-4c0c-934c-6a9edd8cbc8e",
+    "plusCode": "767J62HR+W6",
+    "code": "HNPTC",
+    "unloccode": "HNPTC",
+    "address1": "Zona Libre Caracol, KM 200 CA5",
+    "type": "Others",
+    "name": "Caracol Knits S.A.",
+    "city": "Potrerillos",
+    "state": "CR",
+    "country": "HN",
+    "postalCode": "504",
+    "timezone": "America/Tegucigalpa"
+  },
+  "portOfDischarge": {
+    "uuid": "f3a45dbd-6c77-4a44-aea1-771823b637f6",
+    "plusCode": "HNPCR",
+    "unloccode": "HNPCR",
+    "type": "PORT",
+    "name": "Puerto Cortes",
+    "city": "Puerto Cortes",
+    "state": "CR",
+    "country": "HN",
+    "timezone": "America/Tegucigalpa"
+  },
+  "originator": {
+    "id": "2664982",
+    "name": "Internal Manufacturing",
+    "code": "FOTL-IMA"
+  },
+  "receiver": {
+    "id": "1552232",
+    "name": "Crowley Maritime",
+    "code": "CLAM"
+  },
+  "serviceProvider": {
+    "id": "1552232",
+    "name": "Crowley Maritime",
+    "code": "CLAM"
+  },
+  "mode": "FCL",
+  "cargoType": "Container",
+  "cargoDescription": "Apparel",
+  "status": "Confirmed",
+  "acknowledgementStatus": "Not Acknowledged",
+  "carrierBookingOffice": "",
+  "serviceType": "Port to Port",
+  "paymentTerm": "Collect",
+  "customAttributes": {},
+  "vesselName": "VES67",
+  "vesselCode": "36456",
+  "voyageNumber": "VOY67",
+  "source": "UI",
+  "houseBooking": false,
+  "direct": true,
+  "template": false,
+  "allowedRequesterActions": [
+    "cancel"
+  ],
+  "allowedServiceProviderActions": [
+    "submit",
+    "reject",
+    "accept",
+    "acknowledge"
+  ],
+  "createdBy": "fotl_blume",
+  "createdOn": "2022-02-10T12:19:45Z",
+  "updatedOn": "2022-02-10T12:19:45Z",
+  "updatedBy": "fotl_blume",
+  "bookingDatetime": "2022-02-10T12:19:45Z",
+  "bookingDetails": [
+    {
+      "quantity": 1,
+      "containerType": "20ST",
+      "containerSize": "20ST",
+      "containerNumber": "ASDR345621",
+      "refrigerated": false,
+      "hazmat": false,
+      "createdBy": "fotl_blume",
+      "updatedBy": "fotl_blume",
+      "createdOn": "2022-02-10T12:19:45Z",
+      "updatedOn": "2022-02-10T12:19:45Z"
+    }
+  ],
+  "bookingShipments": [],
+  "bookingParties": [
+    {
+      "bookingPartyId": 10232,
+      "party": "CN",
+      "organization": {
+        "addressLine1": "2 Fruit of the Loom Drive",
+        "addressLine2": "",
+        "city": "Bowling Green",
+        "state": "KY",
+        "country": "US",
+        "postalCode": "42103",
+        "email": "",
+        "phone": "",
+        "createdOn": 1639992331000,
+        "updatedOn": 1639992331000,
+        "id": "209",
+        "orgName": "BDX-Fruit Of The Loom Bowling Green DC",
+        "orgCode": "BDX",
+        "parentOrgCode": "FOTL"
+      },
+      "individual": null
+    },
+    {
+      "bookingPartyId": 10233,
+      "party": "CNR",
+      "organization": {
+        "addressLine1": "2 Fruit of the Loom Drive",
+        "addressLine2": "",
+        "city": "Bowling Green",
+        "state": "KY",
+        "country": "US",
+        "postalCode": "42103",
+        "email": "",
+        "phone": "",
+        "createdOn": 1639992331000,
+        "updatedOn": 1639992331000,
+        "id": "209",
+        "orgName": "BDX-Fruit Of The Loom Bowling Green DC",
+        "orgCode": "BDX",
+        "parentOrgCode": "FOTL"
+      },
+      "individual": null
+    },
+    {
+      "bookingPartyId": 10234,
+      "party": "ST",
+      "organization": {
+        "addressLine1": "2 Fruit of the Loom Drive",
+        "addressLine2": "",
+        "city": "Bowling Green",
+        "state": "KY",
+        "country": "US",
+        "postalCode": "42103",
+        "email": "",
+        "phone": "",
+        "createdOn": 1639992331000,
+        "updatedOn": 1639992331000,
+        "id": "209",
+        "orgName": "BDX-Fruit Of The Loom Bowling Green DC",
+        "orgCode": "BDX",
+        "parentOrgCode": "FOTL"
+      },
+      "individual": null
+    },
+    {
+      "bookingPartyId": 10235,
+      "party": "SF",
+      "organization": {
+        "addressLine1": "2 Fruit of the Loom Drive",
+        "addressLine2": "",
+        "city": "Bowling Green",
+        "state": "KY",
+        "country": "US",
+        "postalCode": "42103",
+        "email": "",
+        "phone": "",
+        "createdOn": 1639992331000,
+        "updatedOn": 1639992331000,
+        "id": "209",
+        "orgName": "BDX-Fruit Of The Loom Bowling Green DC",
+        "orgCode": "BDX",
+        "parentOrgCode": "FOTL"
+      },
+      "individual": null
+    },
+    {
+      "bookingPartyId": 10236,
+      "party": "VGP",
+      "organization": {
+        "addressLine1": "2 Fruit of the Loom Drive",
+        "addressLine2": "",
+        "city": "Bowling Green",
+        "state": "KY",
+        "country": "US",
+        "postalCode": "42103",
+        "email": "",
+        "phone": "",
+        "createdOn": 1639992331000,
+        "updatedOn": 1639992331000,
+        "id": "209",
+        "orgName": "BDX-Fruit Of The Loom Bowling Green DC",
+        "orgCode": "BDX",
+        "parentOrgCode": "FOTL"
+      },
+      "individual": null
+    }
+  ],
+  "bookingCharges": [],
+  "bookingComments": [],
+  "bookingReferences": [],
+  "bookingAttachments": []
+}
+}
